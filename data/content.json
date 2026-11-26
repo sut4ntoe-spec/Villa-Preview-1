@@ -1,0 +1,114 @@
+{
+  "brand": {
+    "name": "Hening",
+    "tagline": "A collection of minimalist sanctuaries in the highlands of Bandung — escape, stillness, light.",
+    "address": "Lembang, Bandung, West Java",
+    "phone": "+62 812-0000-0000",
+    "email": "hello@hening-villa.com"
+  },
+  "hero": {
+    "eyebrow": "On Top of the Highlands",
+    "title": "Hening",
+    "subtitle": "A collection of minimalist sanctuaries above the rice paddies of Bandung.",
+    "backgroundImage": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1920&q=80&auto=format",
+    "ctaText": "Discover the Villas"
+  },
+  "philosophy": {
+    "eyebrow": "Our Philosophy",
+    "statement": "We believe true luxury lies in simplicity — in spaces stripped of excess, where every material is honest and every detail serves the life unfolding inside.",
+    "principles": [
+      { "title": "Honest materials", "description": "Stone, plaster, and timber, left to speak for themselves." },
+      { "title": "Timeless design", "description": "Nothing trend-driven — only what endures." },
+      { "title": "Light & silence", "description": "Rooms shaped around how the sun moves through them." },
+      { "title": "Nature first", "description": "The landscape leads; the architecture follows." }
+    ]
+  },
+  "villasSection": {
+    "eyebrow": "Our Villas",
+    "title": "A Sanctuary for Every Stay",
+    "intro": "Four villas, one philosophy. Each feels like your own private world above the rice paddies and mist below."
+  },
+  "villas": [
+    {
+      "name": "Hening Pinus",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80&auto=format",
+      "alt": "Hening Pinus villa exterior among pine trees",
+      "guests": 4,
+      "beds": 2,
+      "baths": 2,
+      "description": "Feels like your own private world above the pines and valley below.",
+      "link": "#"
+    },
+    {
+      "name": "Hening Sawah",
+      "image": "https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=900&q=80&auto=format",
+      "alt": "Hening Sawah villa overlooking terraced rice fields",
+      "guests": 2,
+      "beds": 1,
+      "baths": 1,
+      "description": "Feels like your own private world above the terraced rice fields below.",
+      "link": "#"
+    },
+    {
+      "name": "Hening Kabut",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=900&q=80&auto=format",
+      "alt": "Hening Kabut villa in morning mist",
+      "guests": 2,
+      "beds": 1,
+      "baths": 1,
+      "description": "Feels like your own private world above the morning mist and valley below.",
+      "link": "#"
+    },
+    {
+      "name": "Hening Batu",
+      "image": "https://images.unsplash.com/photo-1521783988139-89397d761dce?w=900&q=80&auto=format",
+      "alt": "Hening Batu villa with natural stone walls",
+      "guests": 4,
+      "beds": 2,
+      "baths": 2,
+      "description": "Feels like your own private world above the stone terraces and river below.",
+      "link": "#"
+    }
+  ],
+  "gallerySection": {
+    "eyebrow": "The Experience",
+    "title": "Light, Material, Life"
+  },
+  "gallery": [
+    { "src": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1400&q=85&auto=format", "alt": "Terrace at golden hour overlooking rice paddies" },
+    { "src": "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=1400&q=85&auto=format", "alt": "Detail of natural linen textures in the bedroom" },
+    { "src": "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=1400&q=85&auto=format", "alt": "Pine forest surrounding the villa grounds" },
+    { "src": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=1400&q=85&auto=format", "alt": "Villa lit warmly against the evening forest" },
+    { "src": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1400&q=85&auto=format", "alt": "Stone bathroom detail with natural light" },
+    { "src": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1400&q=85&auto=format", "alt": "Morning light across the bedroom" }
+  ],
+  "standard": {
+    "title": "The Hening Standard",
+    "intro": "Every villa in the collection is held to the same promise.",
+    "items": [
+      { "title": "Natural Light Design", "description": "Every room shaped around how the sun moves through it, morning to dusk." },
+      { "title": "Sustainable Materials", "description": "Aged teak sourced from reclaimed structures, honoring the past while serving the future." },
+      { "title": "Panoramic Views", "description": "Every room opens to the terraces beyond — not as spectacle, but as breath." }
+    ]
+  },
+  "testimonials": [
+    { "quote": "The villa feels like stepping into a dream. The silence, the light, the way the architecture honors the land — everything whispers rather than shouts. We didn't want to leave.", "name": "Amelia R.", "location": "Honeymoon, October 2025" },
+    { "quote": "Exactly what a mountain retreat should feel like — no clutter, no noise, just space to breathe.", "name": "Daniel & Sasha", "location": "Singapore" },
+    { "quote": "We came for the views and stayed for the quiet. A rare kind of stillness.", "name": "Putri W.", "location": "Bandung" }
+  ],
+  "location": {
+    "title": "Rooted in Bandung",
+    "eyebrow": "Living in the Highlands",
+    "paragraph1": "The surrounding hills hold centuries of tradition. Terraced farms create rhythm across the slopes. Morning mist rises from the valleys, and with it comes a clarity that's rare.",
+    "paragraph2": "Twenty minutes from central Bandung — close enough for convenience, far enough for true quiet.",
+    "image": "https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=1000&q=80&auto=format"
+  },
+  "contact": {
+    "title": "Plan Your Stay",
+    "intro": "Not sure which villa is right for you? Tell us your dates and party size, and we'll help you choose."
+  },
+  "newsletter": {
+    "title": "Stay in Touch",
+    "intro": "Receive stories, updates, and exclusive offers."
+  }
+}

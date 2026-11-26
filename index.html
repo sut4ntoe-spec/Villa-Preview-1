@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hening | A Collection of Sanctuaries in the Highlands of Bandung</title>
+  <meta name="description" content="Hening is a collection of minimalist villas in the highlands of Bandung — each one designed around silence, light, and honest materials. Discover the villas and reserve your stay.">
+  <meta name="keywords" content="luxury villa Bandung, minimalist design, Airbnb Bandung, vacation rental, architecture, serene retreat, Hening villas">
+  <meta property="og:title" content="Hening | A Collection of Villas in Bandung">
+  <meta property="og:description" content="A collection of minimalist villas in Bandung's highlands. Timeless design, natural materials, peace.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&q=80&auto=format">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: '#FFFFFF',
+            'cream-alt': '#F7F7F6',
+            ink: '#171717',
+            charcoal: '#171717',
+            terracotta: '#171717',
+            sage: '#8B9B8A',
+            divider: '#E5E5E3',
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['Inter', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    "name": "Hening",
+    "description": "A collection of minimalist luxury villas in the highlands of Bandung, each designed around silence, light, and honest materials.",
+    "address": { "@type": "PostalAddress", "addressLocality": "Lembang", "addressRegion": "Bandung", "addressCountry": "ID" },
+    "image": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&q=80&auto=format",
+    "priceRange": "$$$"
+  }
+  </script>
+</head>
+<body class="font-sans bg-cream text-ink">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header id="site-header" class="fixed top-0 inset-x-0 z-50">
+    <nav class="flex items-center justify-between px-6 md:px-12 py-5" aria-label="Main navigation">
+      <a href="#hero" id="nav-brand-name" class="font-serif font-semibold text-xl tracking-tight text-white header-mark">Hening</a>
+      <ul class="hidden md:flex items-center gap-9 text-sm text-white header-mark">
+        <li><a href="#philosophy" class="nav-link">Welcome</a></li>
+        <li><a href="#villas" class="nav-link">Our Villas</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#location" class="nav-link">Location</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hidden md:block">
+        <a href="#villas" class="btn btn-outline text-white text-xs">Book Now</a>
+      </div>
+      <button id="menu-toggle" aria-label="Open menu" aria-expanded="false" class="md:hidden text-white header-mark p-2">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <div id="drawer-backdrop" class="fixed inset-0 bg-black/50 z-50"></div>
+  <aside id="mobile-drawer" class="fixed top-0 right-0 h-full w-72 bg-cream z-50 p-8 flex flex-col" aria-label="Mobile menu">
+    <button id="drawer-close" aria-label="Close menu" class="self-end mb-10 p-2">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg>
+    </button>
+    <ul class="flex flex-col gap-6 text-base">
+      <li><a href="#philosophy">Welcome</a></li>
+      <li><a href="#villas">Our Villas</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#location">Location</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#villas" class="btn btn-primary mt-10 justify-center">Book Now</a>
+  </aside>
+
+  <main id="main-content">
+
+    <!-- ============ HERO ============ -->
+    <section id="hero" class="hero-section">
+      <div id="hero-bg" class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1920&q=80&auto=format');"></div>
+      <div class="hero-overlay"></div>
+      <div class="relative z-10 text-center text-white px-6 max-w-3xl">
+        <p id="hero-eyebrow" class="hero-fade font-sans uppercase tracking-[0.3em] text-xs md:text-sm text-white/80 mb-6" style="animation-delay:200ms;">On Top of the Highlands</p>
+        <h1 id="hero-title" class="hero-fade font-serif font-semibold text-7xl md:text-[9rem] leading-[0.95] tracking-tight mb-8" style="animation-delay:400ms;">Hening</h1>
+        <p id="hero-subtitle" class="hero-fade font-sans text-lg md:text-xl text-white/85 mb-10 max-w-xl mx-auto leading-relaxed" style="animation-delay:600ms;">A collection of minimalist sanctuaries above the rice paddies of Bandung.</p>
+        <div class="hero-fade" style="animation-delay:900ms;">
+          <a href="#villas" id="hero-cta" class="btn btn-outline text-white">Discover the Villas</a>
+        </div>
+      </div>
+      <div class="scroll-chevron absolute bottom-8 left-1/2 -translate-x-1/2 text-white">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+    </section>
+
+    <!-- ============ PHILOSOPHY / MANIFESTO ============ -->
+    <section id="philosophy" class="py-24 md:py-36 px-6 md:px-16 bg-cream text-center">
+      <div class="max-w-3xl mx-auto">
+        <p id="philosophy-eyebrow" class="reveal text-xs uppercase tracking-[0.3em] text-charcoal/50 mb-8">Our Philosophy</p>
+        <p id="philosophy-statement" class="reveal font-serif font-medium text-3xl md:text-5xl leading-[1.25] tracking-tight text-charcoal mb-16" data-delay="160">
+          We believe true luxury lies in simplicity — in spaces stripped of excess, where every material is honest and every detail serves the life unfolding inside.
+        </p>
+        <div id="philosophy-principles" class="grid sm:grid-cols-4 gap-10 text-left sm:text-center">
+          <div class="reveal" data-delay="0">
+            <p class="font-serif text-lg mb-2">Honest materials</p>
+            <p class="text-sm text-charcoal/60 leading-relaxed">Stone, plaster, and timber, left to speak for themselves.</p>
+          </div>
+          <div class="reveal" data-delay="80">
+            <p class="font-serif text-lg mb-2">Timeless design</p>
+            <p class="text-sm text-charcoal/60 leading-relaxed">Nothing trend-driven — only what endures.</p>
+          </div>
+          <div class="reveal" data-delay="160">
+            <p class="font-serif text-lg mb-2">Light &amp; silence</p>
+            <p class="text-sm text-charcoal/60 leading-relaxed">Rooms shaped around how the sun moves through them.</p>
+          </div>
+          <div class="reveal" data-delay="240">
+            <p class="font-serif text-lg mb-2">Nature first</p>
+            <p class="text-sm text-charcoal/60 leading-relaxed">The landscape leads; the architecture follows.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ OUR VILLAS (hub grid) ============ -->
+    <section id="villas" class="py-24 md:py-36 px-6 md:px-16 bg-cream-alt">
+      <div class="max-w-6xl mx-auto">
+        <div class="reveal mb-16 text-center max-w-2xl mx-auto">
+          <p id="villas-eyebrow" class="text-xs uppercase tracking-[0.3em] text-charcoal/50 mb-4">Our Villas</p>
+          <h2 id="villas-title" class="font-serif font-semibold text-5xl md:text-6xl tracking-tight mb-5">A Sanctuary for Every Stay</h2>
+          <p id="villas-intro" class="text-charcoal/65">Four villas, one philosophy. Each feels like your own private world above the rice paddies and mist below.</p>
+        </div>
+        <div id="villas-grid" class="grid sm:grid-cols-2 gap-x-8 gap-y-16">
+          <article class="reveal" data-delay="0">
+            <a href="#" class="img-zoom-wrap aspect-[4/3] block mb-5">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80&auto=format" alt="Hening Pinus villa exterior among pine trees" class="w-full h-full object-cover" loading="lazy" width="900" height="675">
+            </a>
+            <a href="#" class="font-serif font-semibold text-2xl mb-2 inline-block hover:text-charcoal/70 transition-colors">Hening Pinus</a>
+            <p class="text-sm text-charcoal/55 mb-3">4 Guests &nbsp;|&nbsp; 2 Beds &nbsp;|&nbsp; 2 Baths</p>
+            <p class="text-sm text-charcoal/65 leading-relaxed max-w-sm mb-3">Feels like your own private world above the pines and valley below.</p>
+            <a href="#" class="text-sm font-medium underline underline-offset-4 hover:text-charcoal/60">Discover More</a>
+          </article>
+          <article class="reveal" data-delay="100">
+            <a href="#" class="img-zoom-wrap aspect-[4/3] block mb-5">
+              <img src="https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=900&q=80&auto=format" alt="Hening Sawah villa overlooking terraced rice fields" class="w-full h-full object-cover" loading="lazy" width="900" height="675">
+            </a>
+            <a href="#" class="font-serif font-semibold text-2xl mb-2 inline-block hover:text-charcoal/70 transition-colors">Hening Sawah</a>
+            <p class="text-sm text-charcoal/55 mb-3">2 Guests &nbsp;|&nbsp; 1 Bed &nbsp;|&nbsp; 1 Bath</p>
+            <p class="text-sm text-charcoal/65 leading-relaxed max-w-sm mb-3">Feels like your own private world above the terraced rice fields below.</p>
+            <a href="#" class="text-sm font-medium underline underline-offset-4 hover:text-charcoal/60">Discover More</a>
+          </article>
+          <article class="reveal" data-delay="0">
+            <a href="#" class="img-zoom-wrap aspect-[4/3] block mb-5">
+              <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=900&q=80&auto=format" alt="Hening Kabut villa in morning mist" class="w-full h-full object-cover" loading="lazy" width="900" height="675">
+            </a>
+            <a href="#" class="font-serif font-semibold text-2xl mb-2 inline-block hover:text-charcoal/70 transition-colors">Hening Kabut</a>
+            <p class="text-sm text-charcoal/55 mb-3">2 Guests &nbsp;|&nbsp; 1 Bed &nbsp;|&nbsp; 1 Bath</p>
+            <p class="text-sm text-charcoal/65 leading-relaxed max-w-sm mb-3">Feels like your own private world above the morning mist and valley below.</p>
+            <a href="#" class="text-sm font-medium underline underline-offset-4 hover:text-charcoal/60">Discover More</a>
+          </article>
+          <article class="reveal" data-delay="100">
+            <a href="#" class="img-zoom-wrap aspect-[4/3] block mb-5">
+              <img src="https://images.unsplash.com/photo-1521783988139-89397d761dce?w=900&q=80&auto=format" alt="Hening Batu villa with natural stone walls" class="w-full h-full object-cover" loading="lazy" width="900" height="675">
+            </a>
+            <a href="#" class="font-serif font-semibold text-2xl mb-2 inline-block hover:text-charcoal/70 transition-colors">Hening Batu</a>
+            <p class="text-sm text-charcoal/55 mb-3">4 Guests &nbsp;|&nbsp; 2 Beds &nbsp;|&nbsp; 2 Baths</p>
+            <p class="text-sm text-charcoal/65 leading-relaxed max-w-sm mb-3">Feels like your own private world above the stone terraces and river below.</p>
+            <a href="#" class="text-sm font-medium underline underline-offset-4 hover:text-charcoal/60">Discover More</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section id="gallery" class="py-24 md:py-36 px-6 md:px-16 bg-cream">
+      <div class="max-w-6xl mx-auto">
+        <div class="reveal text-center max-w-xl mx-auto mb-16">
+          <p id="gallery-eyebrow" class="text-xs uppercase tracking-[0.3em] text-charcoal/50 mb-4">The Experience</p>
+          <h2 id="gallery-title" class="font-serif font-semibold text-5xl md:text-6xl tracking-tight">Light, Material, Life</h2>
+        </div>
+        <div id="gallery-grid" class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+          <img data-gallery-item data-full="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1400&q=85&auto=format" src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=700&q=80&auto=format" alt="Terrace at golden hour overlooking rice paddies" class="reveal w-full h-56 md:h-64 object-cover cursor-pointer" loading="lazy" width="700" height="256">
+          <img data-gallery-item data-full="https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=1400&q=85&auto=format" src="https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=700&q=80&auto=format" alt="Detail of natural linen textures in the bedroom" class="reveal w-full h-56 md:h-64 object-cover cursor-pointer" loading="lazy" data-delay="80" width="700" height="256">
+          <img data-gallery-item data-full="https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=1400&q=85&auto=format" src="https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=700&q=80&auto=format" alt="Pine forest surrounding the villa grounds" class="reveal w-full h-56 md:h-64 object-cover cursor-pointer" loading="lazy" data-delay="160" width="700" height="256">
+          <img data-gallery-item data-full="https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=1400&q=85&auto=format" src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=700&q=80&auto=format" alt="Villa lit warmly against the evening forest" class="reveal w-full h-56 md:h-64 object-cover cursor-pointer" loading="lazy" data-delay="0" width="700" height="256">
+          <img data-gallery-item data-full="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1400&q=85&auto=format" src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=700&q=80&auto=format" alt="Stone bathroom detail with natural light" class="reveal w-full h-56 md:h-64 object-cover cursor-pointer" loading="lazy" data-delay="80" width="700" height="256">
+          <img data-gallery-item data-full="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1400&q=85&auto=format" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=700&q=80&auto=format" alt="Morning light across the bedroom" class="reveal w-full h-56 md:h-64 object-cover cursor-pointer" loading="lazy" data-delay="160" width="700" height="256">
+        </div>
+      </div>
+    </section>
+
+    <div id="lightbox" class="fixed inset-0 z-[60] bg-black/90 flex items-center justify-center px-4">
+      <button class="lightbox-close absolute top-6 right-6 text-white p-2" aria-label="Close gallery">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg>
+      </button>
+      <button id="lightbox-prev" aria-label="Previous image" class="absolute left-4 md:left-8 text-white p-2">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <figure class="max-w-4xl w-full">
+        <img id="lightbox-img" src="" alt="" class="w-full max-h-[75vh] object-contain mx-auto">
+        <figcaption id="lightbox-caption" class="text-white/80 text-center text-sm mt-4"></figcaption>
+      </figure>
+      <button id="lightbox-next" aria-label="Next image" class="absolute right-4 md:right-8 text-white p-2">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+
+    <!-- ============ AMENITIES ============ -->
+    <section class="py-24 md:py-36 px-6 md:px-16 bg-cream">
+      <div class="max-w-5xl mx-auto">
+        <div class="reveal text-center max-w-xl mx-auto mb-16">
+          <h2 id="standard-title" class="font-serif font-semibold text-4xl md:text-5xl tracking-tight">The Hening Standard</h2>
+          <p id="standard-intro" class="text-charcoal/65 mt-4">Every villa in the collection is held to the same promise.</p>
+        </div>
+        <div id="standard-grid" class="grid sm:grid-cols-3 gap-12 text-center">
+          <div class="reveal" data-delay="0">
+            <svg class="mx-auto mb-5" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="5"/><path d="M12 1v4M12 19v4M4.2 4.2l2.8 2.8M17 17l2.8 2.8M1 12h4M19 12h4M4.2 19.8L7 17M17 7l2.8-2.8" stroke-linecap="round"/></svg>
+            <p id="standard-0-title" class="font-serif text-xl mb-2">Natural Light Design</p>
+            <p id="standard-0-desc" class="text-sm leading-relaxed text-charcoal/65">Every room shaped around how the sun moves through it, morning to dusk.</p>
+          </div>
+          <div class="reveal" data-delay="100">
+            <svg class="mx-auto mb-5" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 2C9 6 6 9 6 13a6 6 0 0012 0c0-4-3-7-6-11z"/></svg>
+            <p id="standard-1-title" class="font-serif text-xl mb-2">Sustainable Materials</p>
+            <p id="standard-1-desc" class="text-sm leading-relaxed text-charcoal/65">Aged teak sourced from reclaimed structures, honoring the past while serving the future.</p>
+          </div>
+          <div class="reveal" data-delay="200">
+            <svg class="mx-auto mb-5" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 12h18M12 3v18" stroke-linecap="round"/><circle cx="12" cy="12" r="9"/></svg>
+            <p id="standard-2-title" class="font-serif text-xl mb-2">Panoramic Views</p>
+            <p id="standard-2-desc" class="text-sm leading-relaxed text-charcoal/65">Every room opens to the terraces beyond — not as spectacle, but as breath.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="py-24 md:py-36 px-6 md:px-16 bg-cream-alt">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="font-serif text-4xl md:text-5xl mb-14">Voices from Our Guests</h2>
+        <div id="testimonials-wrap" class="relative min-h-[200px]">
+          <div class="testimonial-slide reveal">
+            <p class="text-terracotta mb-4" aria-hidden="true">★★★★★</p>
+            <p id="testimonial-0-quote" class="font-serif font-medium text-2xl md:text-3xl leading-relaxed tracking-tight mb-6">"The villa feels like stepping into a dream. The silence, the light, the way the architecture honors the land — everything whispers rather than shouts. We didn't want to leave."</p>
+            <p id="testimonial-0-name" class="text-sm font-medium">Amelia R.</p>
+            <p id="testimonial-0-location" class="text-xs text-charcoal/55">Honeymoon, October 2025</p>
+          </div>
+          <div class="testimonial-slide hidden reveal">
+            <p class="text-terracotta mb-4" aria-hidden="true">★★★★★</p>
+            <p id="testimonial-1-quote" class="font-serif font-medium text-2xl md:text-3xl leading-relaxed tracking-tight mb-6">"Exactly what a mountain retreat should feel like — no clutter, no noise, just space to breathe."</p>
+            <p id="testimonial-1-name" class="text-sm font-medium">Daniel &amp; Sasha</p>
+            <p id="testimonial-1-location" class="text-xs text-charcoal/55">Singapore</p>
+          </div>
+          <div class="testimonial-slide hidden reveal">
+            <p class="text-terracotta mb-4" aria-hidden="true">★★★★★</p>
+            <p id="testimonial-2-quote" class="font-serif font-medium text-2xl md:text-3xl leading-relaxed tracking-tight mb-6">"We came for the views and stayed for the quiet. A rare kind of stillness."</p>
+            <p id="testimonial-2-name" class="text-sm font-medium">Putri W.</p>
+            <p id="testimonial-2-location" class="text-xs text-charcoal/55">Bandung</p>
+          </div>
+        </div>
+        <div class="flex justify-center gap-3 mt-8">
+          <button class="testimonial-dot w-2 h-2 rounded-full bg-divider transition-colors duration-300 active" aria-label="Show testimonial 1"></button>
+          <button class="testimonial-dot w-2 h-2 rounded-full bg-divider transition-colors duration-300" aria-label="Show testimonial 2"></button>
+          <button class="testimonial-dot w-2 h-2 rounded-full bg-divider transition-colors duration-300" aria-label="Show testimonial 3"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LOCATION ============ -->
+    <section id="location" class="py-24 md:py-36 px-6 md:px-16 bg-cream">
+      <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
+        <div class="reveal reveal-left img-zoom-wrap">
+          <img id="location-img" src="https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=1000&q=80&auto=format" alt="Terraced rice fields surrounding Bandung's highlands" class="w-full h-[420px] md:h-[520px] object-cover" loading="lazy" width="1000" height="520">
+        </div>
+        <div class="reveal reveal-right">
+          <h2 id="location-title" class="font-serif text-4xl md:text-5xl mb-4">Rooted in Bandung</h2>
+          <p id="location-eyebrow" class="text-xs uppercase tracking-[0.3em] text-charcoal/50 mb-8">Living in the Highlands</p>
+          <p id="location-p1" class="text-base md:text-lg leading-[1.8] text-charcoal/85 mb-5">The surrounding hills hold centuries of tradition. Terraced farms create rhythm across the slopes. Morning mist rises from the valleys, and with it comes a clarity that's rare.</p>
+          <p id="location-p2" class="text-base md:text-lg leading-[1.8] text-charcoal/85">Twenty minutes from central Bandung — close enough for convenience, far enough for true quiet.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="py-24 md:py-36 px-6 md:px-16 bg-cream-alt">
+      <div class="max-w-xl mx-auto text-center">
+        <h2 id="contact-title" class="font-serif font-semibold text-4xl md:text-5xl tracking-tight mb-4">Plan Your Stay</h2>
+        <p id="contact-intro" class="text-charcoal/75 mb-12">Not sure which villa is right for you? Tell us your dates and party size, and we'll help you choose.</p>
+
+        <form id="contact-form" class="space-y-5 text-left">
+          <div>
+            <label for="name" class="block text-sm mb-1.5">Full Name<span class="text-terracotta">*</span></label>
+            <input id="name" name="name" type="text" required class="field-input w-full border border-divider bg-white px-4 py-3 focus:border-terracotta focus:outline-none">
+          </div>
+          <div>
+            <label for="email" class="block text-sm mb-1.5">Email<span class="text-terracotta">*</span></label>
+            <input id="email" name="email" type="email" required class="field-input w-full border border-divider bg-white px-4 py-3 focus:border-terracotta focus:outline-none">
+          </div>
+          <div class="grid sm:grid-cols-3 gap-5">
+            <div>
+              <label for="checkin" class="block text-sm mb-1.5">Check-in</label>
+              <input id="checkin" name="checkin" type="date" class="field-input w-full border border-divider bg-white px-4 py-3 focus:border-terracotta focus:outline-none">
+            </div>
+            <div>
+              <label for="checkout" class="block text-sm mb-1.5">Check-out</label>
+              <input id="checkout" name="checkout" type="date" class="field-input w-full border border-divider bg-white px-4 py-3 focus:border-terracotta focus:outline-none">
+            </div>
+            <div>
+              <label for="guests" class="block text-sm mb-1.5">Guests</label>
+              <input id="guests" name="guests" type="number" min="1" class="field-input w-full border border-divider bg-white px-4 py-3 focus:border-terracotta focus:outline-none">
+            </div>
+          </div>
+          <div>
+            <label for="message" class="block text-sm mb-1.5">Message</label>
+            <textarea id="message" name="message" rows="4" class="field-input w-full border border-divider bg-white px-4 py-3 focus:border-terracotta focus:outline-none"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-full justify-center">Send Inquiry</button>
+        </form>
+        <div id="contact-success" class="hidden">
+          <div class="check-pop mx-auto mb-4 w-12 h-12 rounded-full bg-sage/20 flex items-center justify-center text-sage">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <p class="text-charcoal/85">Thank you. We'll be in touch shortly to help plan your stay.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NEWSLETTER ============ -->
+    <section class="py-20 px-6 md:px-16 bg-cream">
+      <div class="max-w-md mx-auto text-center">
+        <h2 id="newsletter-title" class="font-serif text-2xl mb-2">Stay in Touch</h2>
+        <p id="newsletter-intro" class="text-sm text-charcoal/65 mb-6">Receive stories, updates, and exclusive offers.</p>
+        <form id="newsletter-form" class="flex gap-3">
+          <label for="newsletter-email" class="sr-only">Email address</label>
+          <input id="newsletter-email" type="email" required placeholder="Your email" class="field-input flex-1 border border-divider bg-white px-4 py-3 focus:border-terracotta focus:outline-none">
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+        <div id="newsletter-success" class="hidden flex items-center justify-center gap-2 text-charcoal/85">
+          <span class="check-pop w-6 h-6 rounded-full bg-sage/20 flex items-center justify-center text-sage">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          Thank you. We'll be in touch.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="bg-charcoal text-cream px-6 md:px-16 py-16">
+    <div class="max-w-6xl mx-auto grid sm:grid-cols-3 gap-12 mb-12">
+      <div>
+        <p id="footer-brand-name" class="font-serif text-2xl mb-3">Hening</p>
+        <p id="footer-tagline" class="text-sm text-cream/65 leading-relaxed max-w-xs">A collection of minimalist sanctuaries in the highlands of Bandung — escape, stillness, light.</p>
+      </div>
+      <div>
+        <h3 class="text-sm uppercase tracking-wider mb-4 text-cream/80">Navigation</h3>
+        <ul class="text-sm text-cream/65 space-y-2">
+          <li><a href="#hero" class="hover:text-cream">Home</a></li>
+          <li><a href="#villas" class="hover:text-cream">Our Villas</a></li>
+          <li><a href="#gallery" class="hover:text-cream">Gallery</a></li>
+          <li><a href="#location" class="hover:text-cream">Location</a></li>
+          <li><a href="#contact" class="hover:text-cream">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-sm uppercase tracking-wider mb-4 text-cream/80">Contact</h3>
+        <address class="not-italic text-sm text-cream/65 leading-relaxed space-y-1">
+          <p id="footer-address">Lembang, Bandung, West Java</p>
+          <p id="footer-phone">+62 812-0000-0000</p>
+          <p id="footer-email">hello@hening-villa.com</p>
+        </address>
+      </div>
+    </div>
+    <div class="max-w-6xl mx-auto border-t border-cream/15 pt-6 text-xs text-cream/45 flex flex-col sm:flex-row justify-between gap-2">
+      <p>&copy; <span id="current-year"></span> Hening. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/content-loader.js"></script>
+  <style>
+    .header-mark { color: #fff; }
+    #site-header.scrolled .header-mark { color: #2A2A2A; }
+  </style>
+</body>
+</html>
